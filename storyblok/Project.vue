@@ -116,7 +116,7 @@
 		border-radius: 30px;
 
 		&.progress {
-			background: #ffcc0019;
+			background: #261e03;
 			color: #ffcc00;
 		}
 
@@ -126,7 +126,7 @@
 		}
 
 		&.repo {
-			background: #001a3a;
+			background: #021123;
 			color: #0060d5;
 		}
 	}
