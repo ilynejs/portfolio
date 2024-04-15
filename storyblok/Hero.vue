@@ -142,6 +142,8 @@
 		width: 250px;
 		height: 250px;
 
+		border-radius: 500px;
+
 		transform: rotate(5deg);
 		transition: all 0.15s cubic-bezier(0.85, 0.85, 0, 1.57);
 
