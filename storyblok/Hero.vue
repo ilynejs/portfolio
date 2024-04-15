@@ -21,13 +21,13 @@
 			<p class="presentation__description">{{ blok.description }}</p>
 		</div>
 
-		<div class="decoration">
+		<!-- <div class="decoration">
 			<div class="blob-container">
 				<div class="first blob" />
 				<div class="second blob" />
 				<div class="third blob"></div>
 			</div>
-		</div>
+		</div> -->
 
 		<NuxtImg
 			:src="blok.illustration.filename"
@@ -41,6 +41,7 @@
 	.hero {
 		position: relative;
 		display: flex;
+		justify-content: space-between;
 
 		width: 100%;
 	}
@@ -51,6 +52,7 @@
 		flex-direction: column;
 
 		gap: 50px;
+		max-width: 500px;
 
 		&__title {
 			font-size: 64px;
@@ -59,6 +61,10 @@
 			.accent {
 				color: $accent;
 			}
+		}
+
+		&__description {
+			line-height: 1.5;
 		}
 	}
 
