@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	ssr: process.env.NUXT_PUBLIC_NODE_ENV === 'production' ? true : false,
+
 	devtools: { enabled: true },
 	modules: [
 		'nuxt-icon',
@@ -43,4 +45,10 @@ export default defineNuxtConfig({
 	},
 
 	css: ['@/assets/styles/index.scss'],
+
+	runtimeConfig: {
+		public: {
+			NODE_ENV: process.env.NODE_ENV,
+		},
+	},
 });
