@@ -121,7 +121,7 @@
 		}
 
 		&.deployed {
-			background: #003a00;
+			background: #011a01;
 			color: #03e403;
 		}
 
