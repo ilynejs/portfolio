@@ -2,7 +2,7 @@
 
 <template>
 	<header>
-		<NuxtLink to="/">rubendc.fr</NuxtLink>
+		<NuxtLink to="/">ilyne.me</NuxtLink>
 
 		<NuxtLink to="mailto:rubendecarvalho@protonmail.com">
 			me contacter
@@ -14,7 +14,7 @@
 	</main>
 
 	<footer>
-		<NuxtLink to="/">rubendc.fr</NuxtLink>
+		<NuxtLink to="/">ilyne.me</NuxtLink>
 
 		<p>
 			designé avec Figma <Icon name="ph:dot-bold" /> développé avec NuxtJS
