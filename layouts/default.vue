@@ -17,7 +17,8 @@
 		<NuxtLink to="/">ilyne.me</NuxtLink>
 
 		<p>
-			designé avec Figma <Icon name="ph:dot-bold" /> développé avec NuxtJS
+			designé avec Figma <Icon name="ph:dot-bold" />
+			développé avec NuxtJS
 		</p>
 	</footer>
 </template>
